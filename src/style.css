@@ -17,6 +17,10 @@ body {
   border-bottom: 1px solid black;
 }
 
+::placeholder {
+  padding-left: 5px;
+}
+
 ul {
   padding-left: 0;
   list-style: none;
@@ -25,6 +29,11 @@ ul {
 ul li {
   display: flex;
   padding-left: 5px;
+}
+
+#item-input {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 button {
@@ -37,6 +46,6 @@ button {
   margin-top: 10px;
 }
 
-.trash-icon {
+.fa-trash-can {
   cursor: pointer;
 }

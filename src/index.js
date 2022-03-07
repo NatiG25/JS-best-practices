@@ -27,7 +27,7 @@ const itemsInsertion = () => {
       Localtasks[i].description
     }" id="item-input"> <span id= "${
       Localtasks[i].index - 1
-    }" class="trash-icon"> &#x1f5d1; </span></li>`;
+    }"<i class="fa-solid fa-trash-can"></i>  </span></li>`;
   }
 };
 
